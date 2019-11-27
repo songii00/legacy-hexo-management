@@ -4,12 +4,12 @@
 
 # Site
 title: Jean의 기술블로그
-subtitle: '끄적끄적'
-description: 'Hello'
+subtitle: 끄적끄적
+description: Hello
 keywords:
 author: Jean
 language: en
-timezone: 'Asia/Seoul'
+timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
