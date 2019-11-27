@@ -14,6 +14,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 런타임에 경계 횡단하기 
 : 경계 한쪽에 있는 기능에서 반대편 기능을 호출하여 데이터를 전달하는 일
 

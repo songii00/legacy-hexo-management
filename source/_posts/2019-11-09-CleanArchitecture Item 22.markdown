@@ -12,6 +12,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![factory method pattern](/assets/images/post/191110/(1).png){: width="50%" height="50%"}
 
+<!-- more -->
+
 - 육각형 아키텍처(Hexagonal Architecture) 
 
   -- 포트와 어댑터

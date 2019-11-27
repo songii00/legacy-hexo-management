@@ -20,6 +20,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 관계형 데이터베이스 
 
 - 관계형 데이터베이스는 결국 기술일 뿐이다. 즉 세부사항임을 뜻함

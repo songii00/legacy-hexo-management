@@ -16,6 +16,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 #### 핵심 업무 규칙
 
 : 사업 자체에 핵심적이며 규칙을 자동화하는 시스템이 없더라도 그대로 존재

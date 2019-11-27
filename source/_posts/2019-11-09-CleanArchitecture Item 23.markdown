@@ -19,6 +19,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 프레젠터와 뷰
 
 GUI 의 경우 험블 객체 패턴을 사용하여 프레젠터와 뷰로 나눌 수 있다. 

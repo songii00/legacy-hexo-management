@@ -16,6 +16,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 궁극적인 세부사항
 
 #### 메인

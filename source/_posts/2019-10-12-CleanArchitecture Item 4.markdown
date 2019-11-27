@@ -15,6 +15,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 1. 구조적 프로그래밍 (Structured Programming)
 - 최초로 적용된 패러다임으로 1968년 에츠허르 비버 데이크스트라가 발견했다.
 

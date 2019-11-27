@@ -20,6 +20,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![동작순서](/assets/images/post/190505/(1).png) 
 
+<!-- more -->
+
 #### 장점
 
 * HTTP 서버와의 통신을 단순화시킨다.

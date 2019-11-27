@@ -18,6 +18,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 적용 사례 
 
 #### 사례 1

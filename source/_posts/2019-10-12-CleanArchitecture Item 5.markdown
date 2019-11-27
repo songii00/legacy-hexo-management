@@ -17,6 +17,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 캡슐화
 
 <br>

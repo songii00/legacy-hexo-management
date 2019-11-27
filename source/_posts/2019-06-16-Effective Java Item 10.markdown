@@ -12,6 +12,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ##### 재정의 하지 말아야 할 때
 
 - 각 인스턴스가 본질적으로 고유하다. 

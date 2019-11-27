@@ -21,6 +21,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 클린 아키텍처?
 
 ![factory method pattern](/assets/images/post/191110/(12).png)

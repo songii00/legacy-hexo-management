@@ -27,6 +27,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 #### 해결책
 
 지난 수십년 동안 두가지 방법으로 해결책은 발전되어 왔다.

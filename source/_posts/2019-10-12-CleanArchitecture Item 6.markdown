@@ -15,6 +15,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 #### 불변성과 아키텍처
 
 아키텍트는 항상 가변성을 염려해야 하는데 그 이유는, 

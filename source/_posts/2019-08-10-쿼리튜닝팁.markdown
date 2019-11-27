@@ -12,6 +12,9 @@ feature-img: "assets/img/banner.jpg"
 - 복합 인덱스 사용 시 equal 조건은 좌측으로 <>,between등 range 조건 혹은 order by, group by 조건은 우측으로 배치하자.
 
 #### 2. ppredicate pushdown 
+
+<!-- more -->
+
 - outer query의 where 조건을 inner query로 밀어넣어 처리량을 줄이자.
 
 

@@ -18,6 +18,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![Job 설명](/assets/images/post/190502/(1).png) 
 
+<!-- more -->
+
 Spring Batch는 여러 Job으로 이루어져 있는대, 여기서 Job은 하나의 배치 작업 단위를 뜻한다. Job 안에는 아래처럼 여러 Step이 존재하고, Step 안에 Tasklet 혹은 Reader & Processor & Writer 묶음이 존재한다.
 
 <br/>

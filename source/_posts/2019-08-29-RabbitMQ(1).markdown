@@ -12,6 +12,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![factory method pattern](/assets/images/post/190829/(1).png) 
 
+<!-- more -->
+
 #### MON(메시지 지향 미들웨어)
 메시지 지향 미들웨어(Meesage Oriented Middleware: MOM)은 비동기 메시지를 사용하는 다른 응용 프로그램 사이에서 데이터 송수신을 의미한다.
 

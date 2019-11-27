@@ -16,6 +16,8 @@ Spring Batch를 이용해 대량의 데이터 전송 로직을 구성중 
 
 <br>
 
+<!-- more -->
+
 #### 코드예시
 
 - Reader

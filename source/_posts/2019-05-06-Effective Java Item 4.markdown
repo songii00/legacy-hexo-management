@@ -14,6 +14,10 @@ feature-img: "assets/img/banner.jpg"
 java.util.Arrays<br>
 java.util.Collections
 
+<!-- more -->
+
+<br>
+
 #### Collections 클래스
 
 ![Collections](/assets/images/post/190506/(1).png) 

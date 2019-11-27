@@ -27,6 +27,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### 부분적 경계
 
 #### 마지막 단계 건너뛰기

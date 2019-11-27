@@ -12,6 +12,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![factory method pattern](/assets/images/post/191117/(1).png)
 
+<!-- more -->
+
 ###### SOA, MSA 더 알아보기 : [https://dzone.com/articles/microservices-vs-soa-whats-the-difference][link01] <br/>
 [link01]: https://dzone.com/articles/microservices-vs-soa-whats-the-difference
 

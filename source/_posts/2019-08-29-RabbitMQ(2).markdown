@@ -26,6 +26,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 #### 문제 해결하기
 
 #### (1) 실시간 배송지연 메시지 발송하기

@@ -21,6 +21,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 ### REP : 재사용/릴리스 등가 원칙
 
 > 재사용 단위는 릴리스 단위와 같다.
