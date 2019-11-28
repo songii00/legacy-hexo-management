@@ -10,7 +10,7 @@ feature-img: "assets/img/banner.jpg"
 
 ### 시스템 아키텍처 아이디어
 
-![factory method pattern](/assets/images/post/191110/(1).png){: width="50%" height="50%"}
+![factory method pattern](/assets/images/post/191110/(1).png)
 
 <!-- more -->
 

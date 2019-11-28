@@ -14,8 +14,8 @@ feature-img: "assets/img/banner.jpg"
 - 행위를 두개의 모듈 또는 클래스로 나눔 -> 그 중 하나가 **험블**
 - 테스트 하기 어려운 행위를 험블 객체로 옮기고, 나머지 모듈에는 테스트 하기 쉬운 행위를 옮김
 
-![factory method pattern](/assets/images/post/191110/(5).png){: width="70%" height="50%"}
-![factory method pattern](./assets/images/post/191110/(6).png){: width="70%" height="50%"}
+![factory method pattern](/assets/images/post/191110/(5).png)
+![factory method pattern](/assets/images/post/191110/(6).png)
 
 <br>
 
@@ -61,7 +61,7 @@ GUI 의 경우 험블 객체 패턴을 사용하여 프레젠터와 뷰로 나�
 ### 데이터 매퍼
 
 #### ORM 
-![factory method pattern](/assets/images/post/191110/(7).png){: width="85%" height="50%"}
+![factory method pattern](/assets/images/post/191110/(7).png)
 - Object Relational Mapping
 - 데이터베이스 계층에 위치 
 - 게이트웨이 인터페이스와 데이터베이스 사이의 험블 객체 경계를 형성
