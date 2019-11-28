@@ -4,7 +4,7 @@ title:  "프레임워크는 세부사항이다"
 date:   2019-11-17 21:45:41 +0900
 tags: [CleanArchitecture]
 categories: clean-architecture
-subtitle : Clean Architecture - Item 31
+subtitle : Clean Architecture - Item 32
 feature-img: "assets/img/banner.jpg"
 ---
 
