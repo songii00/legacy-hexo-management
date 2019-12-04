@@ -10,11 +10,15 @@ feature-img: "assets/img/banner.jpg"
 
 ### 끝없이 반복하는 추
 
+![](/assets/images/post/191125/(17).png)
+
 - 천공카드 -> 그린스크린 단말기가 연결되는 메인프레임 -> 중앙집중식 미니컴퓨터 -> 클라이언트-서버 아키텍처
 - 연산 능력을 중앙에 집중하는 방식과 분산하는 방식 사이에서 끊임없이 움직임
 - 웹은 수많은 진동 중 하나에 불과
 - 앞으로도 진동은 지속됨
 
+###### 클라이언트-서버 아키텍처 더 알아보기 : [https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/...][link01] <br/>
+[link01]: https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/#2-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%9C%EB%B2%84-%ED%8C%A8%ED%84%B4-client-server-pattern
 <br>
 
 <!-- more -->
@@ -37,3 +41,5 @@ feature-img: "assets/img/banner.jpg"
 
 - 위 추상화는 만들기 쉽지 않지만 불가능 하지 않다. 
 - 세상은 마케팅 귀재로 가득하므로 이런 추상화는 꼭 필요하다.
+- 웹은 세부사항이다.
+- GUI를 업무규칙으로부터 분리하라.

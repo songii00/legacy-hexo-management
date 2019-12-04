@@ -81,7 +81,7 @@ feature-img: "assets/img/banner.jpg"
 ##### 포트와 어댑터 더 알아보기 > [http://getoutsidedoor.com/2018/09/03/ports-adapters-architecture/][link02] <br/>
 [link02]: http://getoutsidedoor.com/2018/09/03/ports-adapters-architecture/
 
-코드는 내부(도메인)와 외부(인프라)로 구성된다.
+요약하자면, 코드는 내부(도메인)와 외부(인프라)로 구성된다.
 
 ![](/assets/images/post/191125/(11).png)
 
@@ -101,6 +101,8 @@ feature-img: "assets/img/banner.jpg"
 - 의존성 : 외부 -> 내부
 - 유비쿼터스 도메인 언어
 
+![](/assets/images/post/191125/(19).png)
+
 <br>
 
 ### 컴포넌트 기반 패키지
@@ -117,7 +119,7 @@ feature-img: "assets/img/banner.jpg"
 
 - OrdersController가 OdersService 우회
 
-- CQRS 패턴 : Command Query Responsibility Segregation
+- 경우에 따라서는 의도된 상황 > CQRS 패턴 : Command Query Responsibility Segregation
 
   데이터를 변경하고 조회하는 패턴을 서로 분리
 
@@ -150,7 +152,7 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
-#### 소프트웨어 아키텍처 모델
+#### C4 소프트웨어 아키텍처 모델
 
 - 시스템의 정적 구조를 컨테이너, 컴포넌트, 클래스(혹은 코드)의 측면에서 계층적으로 생각
 - 시스템은 하나 이상의 컨테이너(웹 애플리케이션, 모바일 앱, 데이터베이스 등)으로 구성
@@ -199,7 +201,7 @@ feature-img: "assets/img/banner.jpg"
 
 - 자바9 에서 제공하는 새로운 모듈 시스템
 
-public 타입과 외부에 공표할 타입을 분리 할 수 있다. 
+모듈 시스템을 제대로 사용하면, public 타입과 외부에 공표할 타입을 분리 할 수 있다. 
 
 ex) Orders 모듈 생성 시 모든 타입을 public 으로 지정하더라도 그 중 일부 타입만을 외부에서 사용할 수있도록 공표
 
