@@ -4,6 +4,7 @@ title:  "버그해결기 - chunk"
 date:   2019-06-10 20:35:10 +0900
 tags: [spring batch,bug]
 subtitle : chunk 무한지옥 해결법
+categories: spring batch
 feature-img: "assets/img/banner.jpg"
 ---
 

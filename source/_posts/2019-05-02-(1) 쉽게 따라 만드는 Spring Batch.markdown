@@ -5,6 +5,7 @@ date:   2019-05-05 11:35:46 +0900
 tags: [spring batch]
 subtitle : IntelliJ 로 만드는 Spring Batch
 feature-img: "assets/img/banner.jpg"
+categories: spring batch
 ---
 ## Spring Btach란 
 
