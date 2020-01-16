@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 23
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 23장"
+---
+
 ### 험블 객체 패턴
 - 디자인 패턴
 - ( 테스트 하기 어려운 행위 \ 테스트 하기 쉬운 행위 ) 를 단위 테스트 작성자가 분리하기 쉽게 하는 방법

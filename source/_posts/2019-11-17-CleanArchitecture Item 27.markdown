@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 27
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 27장"
+---
+
 ### 서비스 지향 '아키텍처' , 마이크로서비스 '아키텍처'
 
 ![factory method pattern](/assets/images/post/191117/(1).png)

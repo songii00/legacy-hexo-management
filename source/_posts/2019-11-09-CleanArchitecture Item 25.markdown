@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 25
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 25장"
+---
+
 ### 옴퍼스 사냥 게임 
 
 #### 움퍼스 사냥 게임 : [https://www.youtube.com/watch?reload=9&v=xGVOw8gXl6Y][link01] <br/>

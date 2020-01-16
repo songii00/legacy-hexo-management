@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 26
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 26장"
+---
+
 ### 메인 컴포넌트
 
 > 모든 시스템에서 최소한 하나의 컴포넌트가 존재하고, 이 컴포넌트가 나머지 컴포넌트를 생성하고, 조정하며, 관리한다

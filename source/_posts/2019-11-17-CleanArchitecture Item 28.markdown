@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 28
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 28장"
+---
+
 ### 시스템 컴포넌트인 테스트
 
 - 테스트는 아키텍처 적으로 모두 동등

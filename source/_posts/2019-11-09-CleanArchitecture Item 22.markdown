@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 22
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 22장"
+---
+
 ### 시스템 아키텍처 아이디어
 
 ![factory method pattern](/assets/images/post/191110/(1).png)

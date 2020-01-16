@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 32
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 32장"
+---
+
 아무리 해도 프레임워크는 아키텍처가 될 수 없다.
 
 ![](/assets/images/post/191125/(18).png)

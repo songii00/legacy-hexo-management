@@ -9,6 +9,9 @@ subtitle : Clean Architecture - Item 33
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 33장"
+---
+
 ### 사례 연구 적용하기
 
 ![](/assets/images/post/191125/(6).png)

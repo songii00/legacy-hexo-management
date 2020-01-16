@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 24
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 24장"
+---
+
 ### 쌍방향 다형적 인터페이스
 
 ![factory method pattern](/assets/images/post/191110/(8).png)

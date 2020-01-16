@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 30
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 30장"
+---
+
 ### 데이터베이스는
 
 - 모델 아님

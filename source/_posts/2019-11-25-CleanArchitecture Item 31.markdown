@@ -8,6 +8,9 @@ subtitle : Clean Architecture - Item 31
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 31장"
+---
+
 ### 끝없이 반복하는 추
 
 ![](/assets/images/post/191125/(17).png)

@@ -9,6 +9,9 @@ subtitle : Clean Architecture - Item 34
 feature-img: "assets/img/banner.jpg"
 ---
 
+### "CleanArchitecture 34장"
+---
+
 ### 사례 설정
 
 - 온라인 서점
