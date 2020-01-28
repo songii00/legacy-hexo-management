@@ -161,7 +161,9 @@ public class Theater {
 
 현금이 아니라 신용카드로 결제한다면?
 
-***"이것은 객체 사이의 의존성(dependency) 과 관련된 문제이다."***
+**"이것은 객체 사이의 의존성(dependency) 과 관련된 문제이다."**
+
+<br>
 
 - 의존성은 변경에 대한 영향을 암시
 - 어떤 객체가 변경될 때 그 객체에 의존하는 다른 객체도 함께 변경될 수 잇음.
@@ -432,7 +434,7 @@ public class TicketSeller { // 판매원
     }
 }
 ```
-![](/assets/images/post/200115/(7).png)
+![](/assets/images/post/200115/(7).png)<br>
 
 
 - TicketSeller 가 TicketOffice 의 구현이 아닌 인터페이스에만 의존하게됨

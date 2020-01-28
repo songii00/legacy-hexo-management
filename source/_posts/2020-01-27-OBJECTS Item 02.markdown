@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "SpringBatch Testcase 예제 살펴보기"
+title: "객체지향 프로그래밍"
 date: 2020-01-27 11:07:51 +0900
 tags: [OBJECTS]
 categories: objects
@@ -47,10 +47,14 @@ feature-img: "assets/img/banner.jpg"
 
 ![](/assets/images/post/200127/(1).png)
 
+###### <center> 도메인을 구성하는 타입들의 구조</center>
+
 - 일반적으로 클래스의 이름은 대응되는 도메인의 개념의 이름과 동일하거나 적어도 유사하게 지어야 함
 - 클래스 사이의 관계도 최대한 도메인 개념 사이에 맺어진 관계와 유사하게 만들어야 프로그램의 구조를 이해하기 쉬움
 
 ![](/assets/images/post/200127/(2).png)
+
+###### <center> 도메인 개념의 구조를 따르는 클래스 구조</center>
 
 <br>
 
@@ -292,6 +296,8 @@ public interface DiscountCondition {
 
 - 부모 클래스에 기본적인 알고리즘의 흐름을 구현하고 중간에 필요한 처리를 자식클래스에게 위임하는 디자인 패턴을 템플릿 메서드 패턴이라고 부름
 
+<br>
+
 ```java
 public interface DiscountCondition {
     // 인자로 전달된 screening 이 할인이 가능한지 판단하여 리턴
@@ -411,10 +417,14 @@ Movie titanic = new Movie("타이타닉",
 
 ![](/assets/images/post/200127/(5).png)
 
+<br>
+
 - Movie클래스가 DiscountPolicy 클래스와 연결
 - Movie의 인스턴스는 실행 시에 AmountDiscountPolicy나 PrecentDiscountPolicy의 인스턴스에 의존해야 함
 - 코드 수준에서 Movie 클래스는 이 두 클래스 중 어떤 것에도 의존하지 않음
 - 오직 추상 클래스 DiscountPolicy에만 의존하고 있음
+
+<br>
 
 ```java
 // 실행 시에 Movie 는 AmountDiscountPolicy 에 의존 
@@ -433,6 +443,8 @@ Movie avator = new Movie("아바타",
 ```
 
 > 코드의 의존성과 실행 시점의 의존성이 서로 다를 수 있다는 것이다. 다시 말해 클래스 사이의 의존성과 객체 사이의 의존성은 동일하지 않을 수 있다. 그리고 유연하고, 쉽게 재사용할 수 있으며, 확장 가능한 객체지향 설계가 가지는 특징은 코드의 의존성과 실행 시점의 의존성이 다르다는 것이다. 
+
+<br>
 
 
 - 코드의 의존성과 실행 시점의 의존성이 다르면 다를 수록 
@@ -523,67 +535,66 @@ public class Movie {
 
   <br>
 
-  #### 유연한 설계
+#### 유연한 설계
 
-  ```java
- /**
-    * 할인 정책이 없을 경우
+```java
+/**
+  * 할인 정책이 없을 경우
   */
-  public class NoneDiscountPolicy extends DiscountPolicy{
-		@Override
-  		protected Money getDiscountAmount(Screening screening) {
+public class NoneDiscountPolicy extends DiscountPolicy{
+	@Override
+  	protected Money getDiscountAmount(Screening screening) {
 			return Money.ZERO;
-      }
+    }
 }
   
-  ```
-
+```
+```java
 Movie startWars = new Movie("스타워즈",
           Duration.ofMinutes(210),
           Money.wons(2000),
           new NoneDiscountPolicy());
-  ```
-  
-  - 컨텍스트 독립성 
-  
-  ![](/assets/images/post/200127/(8).png)
-  
-  > 유연성이 필요한 곳에 추상화를 사용하라. 
-  
-  <br>
-  
-  #### 추상 클래스와 인터페이스 트레이드 오프 
-  
-  ```java
-  /**
-   * 할인 정책
-   */
-  public abstract class DiscountPolicy {
-      private List<DiscountCondition> conditions = new ArrayList<>();
-  
-      public DiscountPolicy(DiscountCondition ... conditions){
-          this.conditions = Arrays.asList(conditions);
-      }
-  
-      public Money calculateDiscountAmount(Screening screening){
-          for(DiscountCondition each : conditions){
-              if(each.isSatisfiedBy(screening)){
-                  return getDiscountAmount(screening);
-              }
-          }
-          return Money.ZERO;
-      }
-  }
-  ```
+```
+<br>
+- 컨텍스트 독립성 
+<br>
 
-  - 부모 클래스인 DiscountPolicy 에서 할인 조건이 없을 경우 getDiscountAmount 메서드를 호출하지 않음
+![](/assets/images/post/200127/(8).png)
+> 유연성이 필요한 곳에 추상화를 사용하라. 
+
+<br>
+
+#### 추상 클래스와 인터페이스 트레이드 오프 
+
+```java
+/**
+ * 할인 정책
+ */
+public abstract class DiscountPolicy {
+    private List<DiscountCondition> conditions = new ArrayList<>();
+  
+    public DiscountPolicy(DiscountCondition ... conditions){
+        this.conditions = Arrays.asList(conditions);
+      }
+  
+    public Money calculateDiscountAmount(Screening screening){
+      for(DiscountCondition each : conditions){
+            if(each.isSatisfiedBy(screening)){
+                return getDiscountAmount(screening);
+            }
+      }
+      
+      return Money.ZERO;
+   }
+}
+```
+
+- 부모 클래스인 DiscountPolicy 에서 할인 조건이 없을 경우 getDiscountAmount 메서드를 호출하지 않음
   - DiscountPolicy 와 NoneDiscountPolicy 를 개념적으로 결합
 
-  
+**개선**
 
-  **개선**
-
-  ```java
+```java
   // DiscountPolicy 클래스를 인터페이스로 변경
   public interface DiscountPolicy {
       Money calculateDiscountAmount(Screening screening);
@@ -599,10 +610,10 @@ Movie startWars = new Movie("스타워즈",
       public Money calculateDiscountAmount(Screening screening) {
           return Money.ZERO;
       }
-  }
-  ```
+}
+```
 
-  ![](/assets/images/post/200127/(9).png)
+![](/assets/images/post/200127/(9).png)
 
 어느 설계가 더 좋은가?
 
@@ -616,6 +627,8 @@ Movie startWars = new Movie("스타워즈",
 코드의 재사용을 위해서는 상속보다 합성(composition) 이 더 좋은 방법이다.
 
 > "합성"은 다른 객체의 인스턴스를 자신의 인스턴스 변수로 포함해서 재사용 하는 방법을 말한다. 
+
+<br>
 
 #### 상속
 
@@ -640,5 +653,6 @@ Movie startWars = new Movie("스타워즈",
 따라서 코드의 재사용을 위해서는 상속보다는 합성을 선호하는 것이 더 좋은 방법이다. 다만 대부분의 설계에서는 상속과 합성을 함꼐 사용해야 한다. 
 
 
+> 객체 지향설계의 핵심은 적절한 협력을 식별하고 협력에 필요한 역할을 정의 한 후에 역할을 수행할 수 있는 적절한 객체에게 책임을 할당하는 것이다.
 
-> 객체 지향설계의 핵심은 적절한 협력을 식별하고 협력에 필요한 역할을 정의 한 후에 역할을 수행할 수 있는 적절한 객체에게 책임을 할당하는 것이다. 
+<br>
