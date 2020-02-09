@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6857a2f-adca-49cb-80fa-c2681f6a0bb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/_posts/2020-02-09-OBJECTS Item 04.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/tranquilpeak" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tranquilpeak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/tranquilpeak/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tranquilpeak/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/tranquilpeak/languages/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tranquilpeak/languages/en.yml" afterDir="false" />
@@ -58,16 +60,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-01-OBJECTS Item 03.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="570">
                 <caret line="38" selection-start-line="38" selection-end-line="38" />
-                <folding>
-                  <element signature="e#172#173#0" expanded="true" />
-                  <element signature="e#198#199#0" expanded="true" />
-                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-09-OBJECTS Item 04.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -97,10 +107,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="12" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="825" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -132,6 +140,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,17 +191,19 @@
       <workItem from="1580208515125" duration="897000" />
       <workItem from="1580382925587" duration="566000" />
       <workItem from="1580553477523" duration="969000" />
+      <workItem from="1581076046670" duration="718000" />
+      <workItem from="1581211527947" duration="396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3902000" />
+    <option name="totallyTimeSpent" value="5016000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -238,6 +249,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2020-01-27-OBJECTS Item 02.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2020-01-28-백준알고리즘_1_4.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -248,23 +267,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2020-01-27-OBJECTS Item 02.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-01-OBJECTS Item 03.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="570">
             <caret line="38" selection-start-line="38" selection-end-line="38" />
-            <folding>
-              <element signature="e#172#173#0" expanded="true" />
-              <element signature="e#198#199#0" expanded="true" />
-            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-09-OBJECTS Item 04.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
