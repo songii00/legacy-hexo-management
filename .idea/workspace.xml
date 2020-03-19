@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6857a2f-adca-49cb-80fa-c2681f6a0bb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2020-03-08-OBJECTS Item 08.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/tranquilpeak" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tranquilpeak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/tranquilpeak/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/tranquilpeak/_config.yml" afterDir="false" />
@@ -123,12 +122,7 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2020-03-08-OBJECTS Item 08.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-12">
-                <folding>
-                  <element signature="e#168#169#0" expanded="true" />
-                  <element signature="e#212#213#0" expanded="true" />
-                </folding>
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -157,7 +151,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="12" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -167,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -249,17 +243,19 @@
       <workItem from="1582720050049" duration="72000" />
       <workItem from="1583035351090" duration="368000" />
       <workItem from="1583647536067" duration="594000" />
+      <workItem from="1583720008134" duration="254000" />
+      <workItem from="1583915306866" duration="604000" />
+      <workItem from="1583925702194" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7780000" />
+    <option name="totallyTimeSpent" value="8650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -372,12 +368,7 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2020-03-08-OBJECTS Item 08.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-12">
-            <folding>
-              <element signature="e#168#169#0" expanded="true" />
-              <element signature="e#212#213#0" expanded="true" />
-            </folding>
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
