@@ -14,15 +14,19 @@ feature-img: "assets/img/banner.jpg"
 ### 다형성 
 
 - 다형성 
-  - 하나의 추상 인터페이스에 대해 코드를 작성, 추상 인터페이스에 대해 서로 다른 구현을 연결할수 있는 능력 
+  - 하나의 추상 인터페이스에 대해 코드를 작성, 서로 다른 구현을 연결할수 있는 능력 
   - 여러 타입을 대상으로 동작할 수 있는 코드를 작성할수 있는 방법 
 - 싱속의 일차적 목적은 코드 재사용이 아닌 서브타입의 구현
 
-![](/assets/images/post/200413/(1).png)
+<!-- more -->
 
 <br>
 
 #### 다형성 종류
+
+![](/assets/images/post/200413/(1).png)
+
+<br>
 
 - 오버로딩 다형성 
   - 하나의 클래스 안에 동일한 이름의 메서드가 존재하는 경우
@@ -33,7 +37,7 @@ feature-img: "assets/img/banner.jpg"
 - 매개변수 다형성 
   - 제네릭 프로그래밍 
   - 클래스 인스턴스 변수나 메서드의 매개변수 타입을 임의의 타입으로 선언한 후 사용하는 시점에 구체적인 타입으로 지정 
-  - List<T>
+  - List < T >
 - 포함 다형성 / 서브 타입 다형성
   - 메시지가 동일하더라도 수신한 객체의 타입에 따라 실제 수행되는 행동이 달라지는 능력
 
@@ -59,6 +63,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![](/assets/images/post/200413/(2).png) 
 
+<br>
+
 - 상속은 자식클래스의 인스턴스 안에 부모 클래스의 인스턴스를 포함 
 - 자식 클래스의 인스턴스는 자동으로 부모 클래스에 정의한 모든 인스턴스 변수를 내부에 포함 
 
@@ -69,8 +75,6 @@ feature-img: "assets/img/banner.jpg"
 - 부모 클래스가 정의한 일부 메서드를 자식 클래스의 메서드로 포함 
 - 부모 클래스의 모든 퍼블릭 메서드는 자식 클래스의 퍼블릭 인터페이스에 포함
 - 부모 클래스의 인스턴스에게 전송할 수 있는 모든 메시지는 자식 클래스의 인스턴스에게도 전송가능
-
-<br>
 
 > 그 이유는 런타임에 시스템이 자식 클래스에 정의되지 않은 메서드가 있을 경우 이 메서드를 부모 클래스 안에서 탐색하기 때문이다.
 
@@ -97,11 +101,13 @@ feature-img: "assets/img/banner.jpg"
 
 #### 업캐스팅 
 
+![](/assets/images/post/200413/(4).png) 
+
+<br>
+
 - 다운 캐스팅 
   - 부모 클래스의 인스턴스를 자식 클래스 타입으로 변환 
   - 명시적 타입 캐스팅 필요 
-
-![](/assets/images/post/200413/(4).png) 
 
 ![](/assets/images/post/200413/(5).png)
 
@@ -138,6 +144,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![](/assets/images/post/200413/(6).png)
 
+<br>
+
 - 자식 클래스와 부모 클래스 양쪽 모두 동일한 시그니처를 가진 메서드가 구현되 있다면?
   - 자식 클래스의 메서드가 먼저 검색 
 
@@ -146,6 +154,8 @@ feature-img: "assets/img/banner.jpg"
 ##### 메서드 오버로딩
 
 ![](/assets/images/post/200413/(7).png)
+
+<br>
 
 - 메서드 오버라이딩은 메서드를 감추지만 메서드 오버로딩은 사이좋게 공존 
 
@@ -159,6 +169,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![](/assets/images/post/200413/(8).png) 
 
+<br>
+
 - self가 참조하는 현재 객체에 메시지를 전송하라는 의미 
 
 <br>
@@ -168,7 +180,11 @@ feature-img: "assets/img/banner.jpg"
 ##### 정적 타입 언어와 이해 할 수 없는 메시지 
 
 - 에러 발생 
-- 코드
+
+```java
+Lecture lecture = new GradeLecture(...);
+lecture.unknownMessage(); // 컴파일 에러 
+```
 
 <bR>
 
@@ -199,6 +215,8 @@ feature-img: "assets/img/banner.jpg"
 #### 위임과 self 참조 
 
 ![](/assets/images/post/200413/(9).png) 
+
+<br>
 
 - 메서드 탐색 중 자식 클래스의 인스턴스와 부모 클래스의 인스턴스가 동일한 self 참조를 공유
 - 모든 객체지향 언어는 자동으로 self 참조를 생성하고 할당 
