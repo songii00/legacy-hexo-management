@@ -2,7 +2,7 @@
 layout: post
 title: "양방향 연관관계 주의사항"
 date: 2020-04-18:14:28:01 +0900
-tags: [OBJECTS]
+tags: [JPA]
 categories: jpa
 subtitle : 
 feature-img: "assets/img/banner.jpg"
