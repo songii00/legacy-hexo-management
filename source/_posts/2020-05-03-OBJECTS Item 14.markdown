@@ -22,6 +22,8 @@ feature-img: "assets/img/banner.jpg"
 
 <br>
 
+<!-- more -->
+
 #### 고정요금 방식 구현하기 
 
 ```java
