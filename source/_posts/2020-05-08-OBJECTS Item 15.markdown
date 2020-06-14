@@ -15,6 +15,8 @@ feature-img: "assets/img/banner.jpg"
 
 ![](/assets/images/post/200508/(5).jpeg) 
 
+<br>
+
 - 소프트웨어 설계에서 반복적으로 발생하는 문제에 대해 반복적으로 적용할 수 있는 해결 방법 
 - 목적 : 설계의 재사용 
 - 다양한 변경을 다루기 위해 반복적으로 재사용할 수 있는 설계 묶음 
@@ -22,6 +24,8 @@ feature-img: "assets/img/banner.jpg"
 - 협력을 일관성 있게 만들기 위해 재사용할 수 있는 설계의 묶음
 
 <br>
+
+<!-- more -->
 
 #### 프레임 워크
 
@@ -102,7 +106,9 @@ feature-img: "assets/img/banner.jpg"
 
 - Strategy 패턴(전략 패턴)
 
-   ![](/assets/images/post/200508/(1).png) 
+  ![](/assets/images/post/200508/(1).png) 
+
+  <br>
 
   - 다양한 알고리즘을 동적으로 교체 할 수 있는 역할과 책임의 집합 제공 
 
@@ -112,6 +118,8 @@ feature-img: "assets/img/banner.jpg"
 
 	![](/assets/images/post/200508/(2).jpg) 
 
+  <br>
+  
   - 역할과 책임을 추상화와 구현의 두개의 커다란 집합으로 분해, 설계 확장 가능
   - 구현(implementation)으로부터 추상(abstraction) 레이어를 분리하여 이 둘이 서로 독립적으로 변화
   
@@ -122,6 +130,8 @@ feature-img: "assets/img/banner.jpg"
 
   ![](/assets/images/post/200508/(3).png) 
 
+  <br>
+  
     - 협력에 참여하는 객체들의 역할 : Component, Composite, Leaf 
       - Component : 구체적인 부분
         - Leaf 클래스와 전체에 해당하는 Composite 클래스에 공통 인터페이스를 정의
@@ -133,13 +143,13 @@ feature-img: "assets/img/banner.jpg"
     - 한 객체가 세 역할을 모두 수행할 수 있음 
     - 다수의 클래스가 동일한 역할을 구현할 수 있음 
 
-
-다이어그램 
-
 <br>
 
 - Observer 패턴
 ![](/assets/images/post/200508/(4).jpeg) 
+  
+  <br>
+  
   - 유연한 통지 메커니즘을 구축하기 위해 객체 간 결합도를 낮출 수 있는 역할과 책임의 집합 제공
   - 대상 객체의 관리를 Subject 클래스와 Obaserver 인터페이스로 일반화
   - 한객체의 상태가바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고 자동으로 내용이 갱신되는 방식
@@ -157,6 +167,7 @@ feature-img: "assets/img/banner.jpg"
 - Template Method 패턴 
 
   ![](/assets/images/post/200508/(7).png) 
+  <br>
 
   - 전체적으로는 동일하면서 부분적으로는 다른 구문으로 구성된 메서드의 코드 중복을 최소화 
 
@@ -168,6 +179,8 @@ feature-img: "assets/img/banner.jpg"
 
 - Decorator 패턴 
 ![](/assets/images/post/200508/(7).png) 
+
+<br>
 
 - 객체의 행동을 동적으로 추가할 수 있게 해주는 패턴 
   
@@ -252,6 +265,8 @@ feature-img: "assets/img/banner.jpg"
 
 > 좋은 객체 지향 설계의 증명이 바로 이와 같은 의존성 역전이다. 
 
+<br>
+
 - 제어의 역전 
   - 할리우드 원리 
 - 훅(hook)
@@ -260,6 +275,8 @@ feature-img: "assets/img/banner.jpg"
 - 협력을 제어하는 것은 프레임워크 
 - 개발자는 프레임워크가 호출하는 코드만을 작성함
 - 제어의 흐름이 역전
+
+<br>
 
 <br>
 
