@@ -4,11 +4,15 @@ title: "양방향 연관관계 주의사항"
 date: 2020-04-18:14:28:01 +0900
 tags: [JPA]
 categories: jpa
-subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200418/(4).png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "JPA"
+
+<!-- more -->
+
 ---
 
 ### 기본 설정
@@ -20,8 +24,6 @@ feature-img: "assets/img/banner.jpg"
 ### 항상 양쪽에 값을 설정하자 
 
 #### 연관관계 주인 이 아닌 쪽에 값 설정 시
-
-<!-- more -->
 
 ```java
 Member member = new Member();

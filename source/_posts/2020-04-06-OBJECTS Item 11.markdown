@@ -4,11 +4,15 @@ title: "합성과 유연한 설계"
 date: 2020-04-06:10:22:10 +0900
 tags: [OBJECTS]
 categories: objects
-subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200406/(1).png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "OBJECTS 11장"
+
+<!-- more -->
+
 ---
 
 - 상속
@@ -18,7 +22,6 @@ feature-img: "assets/img/banner.jpg"
   - 정적인 관계
   - 화이트박스 재사용
   
-  <!-- more -->
 - 합성
   - 부분 객체의 코드 재사용
   - 의존성이 런타임에 해결

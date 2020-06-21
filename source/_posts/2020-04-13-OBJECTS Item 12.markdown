@@ -4,11 +4,15 @@ title: "다형성"
 date: 2020-04-13:18:25:45 +0900
 tags: [OBJECTS]
 categories: objects
-subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200413/(1).png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "OBJECTS 12장"
+
+<!-- more -->
+
 ---
 
 ### 다형성 
@@ -18,7 +22,7 @@ feature-img: "assets/img/banner.jpg"
   - 여러 타입을 대상으로 동작할 수 있는 코드를 작성할수 있는 방법 
 - 싱속의 일차적 목적은 코드 재사용이 아닌 서브타입의 구현
 
-<!-- more -->
+
 
 <br>
 

@@ -4,11 +4,15 @@ title: "도메인 모델 시작"
 date: 2020-06-14:17:28:38 +0900
 tags: [DDDStart!]
 categories: ddd start
-subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200614/(1).png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "DDD Start! 1장"
+
+<!-- more -->
+
 ---
 
 ### 도메인
@@ -17,8 +21,6 @@ feature-img: "assets/img/banner.jpg"
 - 도메인은 여러 하위 도메인으로 구성 
 
 ![](/assets/images/post/200614/(1).png) 
-
-<!-- more -->
 
 <br>
 

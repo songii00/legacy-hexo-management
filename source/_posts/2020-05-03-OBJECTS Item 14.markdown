@@ -4,11 +4,15 @@ title: "일관성 있는 협력"
 date: 2020-05-03:14:56:48 +0900
 tags: [OBJECTS]
 categories: objects
-subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200503/(1).png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "OBJECTS 14장"
+
+<!-- more -->
+
 ---
 
 - 가능하면 유사한 기능을 구현하기 위해 유사한 협력 패턴을 사용
@@ -21,8 +25,6 @@ feature-img: "assets/img/banner.jpg"
  ![](/assets/images/post/200503/(1).png) 
 
 <br>
-
-<!-- more -->
 
 #### 고정요금 방식 구현하기 
 

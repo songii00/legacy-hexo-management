@@ -4,11 +4,15 @@ title: "디자인 패턴과 프레임워크"
 date: 2020-05-08:17:53:03 +0900
 tags: [OBJECTS]
 categories: objects
-subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200508/(5).jpeg
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "OBJECTS 15장"
+
+<!-- more -->
+
 ---
 
 #### 디자인 패턴 
@@ -24,8 +28,6 @@ feature-img: "assets/img/banner.jpg"
 - 협력을 일관성 있게 만들기 위해 재사용할 수 있는 설계의 묶음
 
 <br>
-
-<!-- more -->
 
 #### 프레임 워크
 

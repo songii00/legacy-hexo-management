@@ -5,11 +5,15 @@ date: 2020-04-25:10:31:48 +0900
 tags: [OBJECTS]
 categories: objects
 subtitle : 
-feature-img: "assets/img/banner.jpg"
+thumbnailImage: https://songii00.github.io/assets/images/post/200425/(1).png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 
 ### "OBJECTS 13장"
 ---
+
+<!-- more -->
 
 <br>
 
@@ -23,8 +27,6 @@ feature-img: "assets/img/banner.jpg"
 > 상속을 사용하는 일차적인 목표는 코드 재사용이 아니라 타입 계층을 구현하는 것이어야 한다. 
 
 <br>
-
-<!-- more -->
 
 ### 타입
 
